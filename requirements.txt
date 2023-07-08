@@ -1,0 +1,4 @@
+bs4
+requests
+requests_html
+csv

@@ -33,3 +33,6 @@ with open(f"{ticker}.csv", "w", newline="") as file:
     writer = csv.DictWriter(file, fieldnames=amzfields)
     writer.writeheader()
     writer.writerows(stock_data)
+
+print("File Created Successfully")
+print(f"File name: {ticker}.csv")
